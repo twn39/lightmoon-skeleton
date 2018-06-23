@@ -1,0 +1,21 @@
+{
+    "name": "lightmoon/lightmoon-skeleton",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "weinan",
+            "email": "twn39@163.com"
+        }
+    ],
+    "require": {
+        "lightmoon/lightmoon": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/App/"
+        }
+    },
+    "scripts": {
+        "serve": "php bin/index.php"
+    }
+}
