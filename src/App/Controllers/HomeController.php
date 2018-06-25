@@ -6,7 +6,9 @@ class HomeController
 {
     public function index($request, $response, $params)
     {
-        $response->write("Hello lightmoon.");
+        $response->write(json_encode([
+            'title' => 'lightmoon start!',
+        ]));
 
         return $response;
     }

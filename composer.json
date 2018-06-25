@@ -16,6 +16,6 @@
         }
     },
     "scripts": {
-        "serve": "php bin/index.php"
+        "serve": "php bin/server.php"
     }
 }
